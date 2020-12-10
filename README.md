@@ -22,6 +22,9 @@ Authors: Vale A.M.P.G. 1 , Ucchesu M. 2* , Di Ruberto C. 3 , Loddo A. 3 , Soares
 
 # Workflow description
 The manuscript mentioned above described in detail the plugin's workflow.
+
 For the sake of simplicity: it works on an entire folder of digital seed images, acquired with a blue background.
+
 It requires the user to indicate one file among the several which can present inside a folder (the folder MUST contain only blue background images) and, after the pre-processing and segmentation phase, produces a ResultTable inside ImageJ with some statistical data and, above all, saves original color, gray-level, and black and white mask images under the folder "results", on the same folder containing the images.
+
 E.g.: if the folder containing the images is in C:\Users\User\Desktop\Seeds -> the results will be in C:\Users\User\Desktop\Seeds\results
